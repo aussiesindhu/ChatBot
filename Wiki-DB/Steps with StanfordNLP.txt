@@ -1,0 +1,10 @@
+1. Downloaded from http://stanfordnlp.github.io/CoreNLP/index.html#download.
+2. Dowlaoded Python wrapper for Stanford CoreNLP - py-corenlp from https://github.com/smilli/py-corenlp.
+3. Installed it using pip install pycorenlp from command promt.
+4. Checked if Stanford CoreNLP server is running by following from http://stanfordnlp.github.io/CoreNLP/corenlp-server.html#getting-started.
+- cd C:\Users\Bhavnit\Downloads\stanford-corenlp-full-2016-10-31
+- java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer
+
+5. CHecked http://localhost:9000/, the server is running and saw a website similar to corenlp.run.
+
+6. Used https://github.com/smilli/py-corenlp/blob/master/example.py to write  a python script "pynlp.py" to convert text into text with pronoun resolver. Eg - for text = LosAngeles is the capital of California. It is very big city. It converts into "LosAngeles is the capital of California. LosAngeles is very big city."
